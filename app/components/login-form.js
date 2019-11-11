@@ -18,8 +18,8 @@ const LoginForm = () => {
         </div>
       <style jsx>{`
         .main{
-          margin-left: auto;
-          margin-right: auto;
+          margin-left: 300px;
+          margin-right: 300px;
         }
 
         .login{
