@@ -1,18 +1,10 @@
-import React from 'react'
-import NavBar from "./components/nav-bar";
-import LoginForm from "./components/login-form";
+import React from 'react';
+import Routing from './routing';
 
 const App = () => {
-	return (
-		<div>
-			<NavBar />
-			<LoginForm />
-			<style jsx>{`
-				p {
-					color: red;
-				}
-				`}</style>
-		</div>)
-}
+  return (
+    <Routing />
+  );
+};
 
-export default App
+export default App;
