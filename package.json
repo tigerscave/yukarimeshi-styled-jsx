@@ -6,7 +6,7 @@
   "author": "tadaniya <t.adaniya@adawarp.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development --port 8099",
+    "start": "webpack-dev-server --open --mode development --port 8099 --history-api-fallback",
     "build": "webpack --mode development"
   },
   "dependencies": {

@@ -1,10 +1,12 @@
 import React from "react"
-import AdawarpLogo from "../assets/adawarp_logo.png"
+import AdawarpLogo from "../../assets/adawarp_logo.png"
 
 const NavBar = () => {
   return (
     <div>
       <img src={AdawarpLogo} className="logo-image"/>
+      <p>管理者</p>
+      <hr />
       <style jsx>{`
         .logo-image {
           width: 3rem;
