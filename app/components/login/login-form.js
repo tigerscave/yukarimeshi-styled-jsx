@@ -25,7 +25,7 @@ const LoginForm = () => {
         .login{
           font-size: 20px;
           font-weight: bold;
-          padding-top: 30px;
+          padding-top: 40px;
           padding-bottom: 10px;
         }
 
